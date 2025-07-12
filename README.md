@@ -2,10 +2,7 @@
 
 This project is a React Native application developed with React Native CLI, designed to facilitates pet adoption processes, connecting potential pet owners with adoptable animals through a streamlined digital platform.
 
-<video width="640" height="480" controls>
-  <source src="https://raw.githubusercontent.com/majid-cj/assets/refs/heads/master/petwatch.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<video src="https://raw.githubusercontent.com/majid-cj/assets/refs/heads/master/petwatch.mp4" controls width="640" height="480"></video>
 
 ### Setup Instructions
 
