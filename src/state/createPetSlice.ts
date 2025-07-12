@@ -29,16 +29,6 @@ export const createPetSlice: StateCreator<PetsSlice> = (set, get) => ({
   },
   getPets: async () => {
     try {
-      if (get().pets.response.length > 0) {
-        set({
-          pets: {
-            loading: false,
-            error: undefined,
-            response: get().pets.response,
-          },
-        });
-        return;
-      }
       set({ pets: { loading: true, error: undefined, response: [] } });
       const response: PetAPIResponse = await axiosInstance.get(URLS.PETS);
       set({
